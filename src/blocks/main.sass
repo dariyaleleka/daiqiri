@@ -71,7 +71,38 @@ body
 // =====================  Media  ==========================
 
 /*! Media */
+@media screen and (min-width: 1800px)  
+  .categories 
+    ul 
+      li 
+        padding: 19px 72px
+        a
+          font-size: 53px 
 @media screen and (min-width: 1500px)
+  .title-main-about, .about-block__content h3
+    font-size: 40px
+  .footer_main__social 
+    p 
+      font-size: 29px
+    ul
+      li
+        a
+          img
+            width: 33px      
+  .footer_main_contacts 
+    padding-top: 65px
+    padding-left: 87px
+  .footer_main_contacts 
+    h4 
+      font-size: 27px
+  .footer_main_contacts 
+    p 
+      font-size: 16px
+  .footer__bottom 
+    ul 
+      li 
+        a 
+          font-size: 16px
   .content-image__block 
     width: 100%
     height: 960px
@@ -81,34 +112,184 @@ body
     font-size: 22px
   .title-main 
     font-size: 55px
-  .categories 
-    ul 
-      li 
-        padding: 19px 72px
-        a
-          font-size: 53px 
+  
   .content__propositions-img
     width: 80%
     img
       width: 100%  
+@media screen and (max-width: 1400px)
+      .header__bottom 
+        ul
+          width: 100%
+@media screen and (max-width: 1380px)
+  .item-title 
+    position: absolute
+    top: 33%
+    padding: 20px 43px
+  .slider-main 
+    width: 100%
+    min-height: 707px
+  .categories 
+    padding: 0 70px
+  .why-container 
+    margin: 0 109px
+@media screen and (max-width: 1300px)
+  .content-image__block
+    max-height: 700px
+    height: auto
+  .why-container 
+    margin: 0 28px
+  .content__propositions-img
+    width: 50%
+     
+  .categories 
+    ul 
+      li
+        margin: 10px
+  .categories 
+    ul
+      justify-content: center          
 @media screen and (max-width: 1200px)
+  .footer_main__social 
+    position: absolute
+    top: 33%
+    right: 10%
+  .footer_main 
+    padding: 0 0px
+  .why-container 
+    margin: 0 28px
   .header,
-  .footer
-    background: #ff0022
+  .header__bottom
+    display: none
 @media screen and (max-width: 992px)
+  .categories
+    display: initial
+  .about-block__content
+    width: 80%
+  .content__propositions-text-border 
+    p 
+      margin: 25px 45px
+  .content__propositions-img
+    img
+      width: inherit 
+  .top-item
+    top: 0
+  .why-content__blocks-item
+    flex-direction: row
+  .content__propositions-img 
+    width: 100%
+  .content__propositions-container
+    flex-direction: column
+  .why-content__blocks
+    flex-direction: column
+  .slider-main 
+    width: 100%
+    min-height: 540px
   .header,
-  .footer
-    background: #fbff00
+  .header__bottom
+    display: none
 @media screen and (max-width: 768px)
+  .slider-main
+    min-height: 413px 
+  .content__propositions-container 
+    margin: 10px 50px 46px 50px
+  .content__propositions-container 
+    display: flex
+    margin: 10px 50px 46px 50px
+  .item-title 
+    position: absolute
+    top: 33%
+    padding: 20px 24px
   .header,
-  .footer
-    background: #2bff00
+  .header__bottom
+    display: none
+@media screen and (max-width: 650px)
+  .footer__bottom
+    padding: 0 20px
+  .footer__bottom 
+    ul
+      align-items: flex-start
+  .categories
+    display: none
+  .slider-main 
+    min-height: 343px
+  .content__propositions-container 
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    margin: 10px 0px 46px 0px
+  .about-block__content 
+    width: 100%
+  .footer 
+    min-height: 180px
+  .footer__bottom 
+    ul
+      flex-direction: column
+      align-items: left
+  .footer__bottom 
+    background: #fff
+    min-height: 39px
+  .why-content__blocks-item
+    flex-direction: column
+      
 @media screen and (max-width: 576px)
+
+  .about-block__content
+    border: none
+    border-top: 5px solid #fff
+    border-bottom: 5px solid #fff
+  .footer_main__social
+    left: 7%
+    top: 118%
+  .footer_main_contacts
+    height: 130px
+  .footer 
+    min-height: 293px
+  .footer_main_contacts 
+    padding-top: 42px
+    padding-left: 29px
+  .content__propositions-text-border 
+    p 
+      margin: 33px 20px
+  .content__propositions-text-border 
+    border: none
+    border-bottom: 5px solid #fff
+  .content__propositions-text 
+    padding: 27px 0px
+  .about-block__content 
+    p
+      font-size: 12px
+  .about-block__content
+    padding: 20px
+  .slider-main 
+    min-height: 261px
+  .item-title 
+    position: absolute
+    top: 33%
+    padding: 20px 40px
+  .why-content__blocks-item
+    width: 100%
+  .blocks-item
+    width: 100%
+  .about-block
+    min-height: 787px
+  .why-container
+    margin: 0
   .header,
-  .footer
-    background: #00ccff
+  .header__bottom
+    display: none
+@media screen and (max-width: 375px)
+  .about-block__content
+    border: none
+    border-top: 5px solid #fff
+    border-bottom: 5px solid #fff 
+  .slider-main 
+    min-height: 214px
+  .about-block__content 
+    p
+      font-size: 12px    
 @media screen and (max-width: 320px)
   .header,
-  .footer
-    background: #ff0080
+  .header__bottom
+    display: none
 /*! Media End*/
