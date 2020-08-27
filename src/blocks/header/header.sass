@@ -1,0 +1,86 @@
+/*! .header */
+.header
+  height: 80px
+  background: #232323
+  color: #fff
+.header__container
+  width: 100%
+  nav
+    width: 80%
+    height: 80px 
+    ul
+      display: flex 
+      justify-content: end
+      align-items: center
+      //height: 80px
+      li 
+        display: flex
+        align-items: center
+        justify-content: center
+        min-width: 200px
+        height: 80px
+        cursor: pointer
+        transition: all linear .5s
+        a
+          //height: 80px  
+          transition: all linear .5s
+          cursor: pointer
+          font-style: normal
+          font-weight: normal
+          font-size: 21px
+          line-height: 26px
+          color: #FFFFFF
+          text-decoration: none
+          transition: all linear .5s
+          cursor: pointer
+          img
+            padding: 0 
+          &:hover
+            color: #E4D0D1
+        &:first-child
+          width: 320px  
+.active-color
+  background: #EF5F96
+.header__bottom
+  background-size: cover 
+  height: 100px 
+  ul
+    height: 100px
+    display: flex
+    align-items: center
+    justify-content: flex-start 
+    width: 83%
+    li
+      position: relative
+      background: transparent
+      padding: 18px 30px
+      transition: all linear .5s
+      z-index: 999
+      a
+        font-style: normal
+        font-weight: normal
+        font-size: 21.875px
+        line-height: 26px
+        letter-spacing: 0.025em
+        color: #000000  
+        text-decoration: none 
+        z-index: 9999
+      &:after
+        content: ''
+        position: absolute
+        left: 19px
+        width: 71%
+        z-index: -1     
+        height: 30px
+        background: transparent
+        // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        // filter: blur(10px)  
+        transition: all linear .5s
+      &:hover  
+        &:after
+          background: #E4D0D1
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+          filter: blur(10px)  
+         
+/*! .header end*/
+
