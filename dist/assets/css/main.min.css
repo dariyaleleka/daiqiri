@@ -5823,12 +5823,12 @@ body {
 @media screen and (min-width: 1800px) {
   .slider-main {
     width: 100%;
-    min-height: 750px !important;
+    min-height: 600px !important;
     position: relative;
   }
 
   .slider-main-item {
-    height: 750px !important;
+    height: 600px !important;
     background-size: cover;
   }
 
