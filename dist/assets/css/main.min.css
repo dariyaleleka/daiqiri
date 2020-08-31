@@ -5893,6 +5893,10 @@ body {
 }
 
 @media screen and (max-width: 1300px) {
+  .categories ul {
+    display: none;
+  }
+
   .content-image__block {
     max-height: 700px;
     height: auto;
@@ -5935,6 +5939,30 @@ body {
   .header,
   .header__bottom {
     display: none;
+  }
+
+  .why-container {
+    margin: 0px;
+  }
+
+  .item-title {
+    position: absolute;
+    top: 33%;
+    padding: 20px 17px;
+  }
+
+  .content__propositions-container {
+    margin: 10px 60px 46px 60px;
+  }
+
+  .slider-main-item {
+    height: 557px !important;
+    background-size: cover;
+  }
+
+  .slider-main {
+    width: 100%;
+    min-height: 557px !important;
   }
 }
 
