@@ -18,7 +18,7 @@
 /*! RFS */
 @import ../../node_modules/rfs/sass
 /*! RFS End*/
-@import url(https://allfont.ru/allfont.css?fonts=allegretto-script-one)  
+ 
 
 // ========================================================
 //      Uncomment if png or svg folder not empty
@@ -72,6 +72,35 @@ body
 
 /*! Media */
 @media screen and (min-width: 1800px)  
+  .slider-main
+    //display: flex
+    //max-width: 1440px
+    width: 100%
+    //overflow: hidden
+    min-height: 750px!important  
+    position: relative
+
+  .slider-main-item
+    //width: 100%!important
+    height: 750px!important 
+    background-size: cover
+    img
+      width: 100%   
+      height: auto
+  .slick-dots 
+    position: absolute
+    bottom: -43px
+  .slider-main-item
+    //width: 100%!important
+    height: 780px!important 
+  .header__bottom 
+    ul
+      margin: 0 auto
+  .header__container 
+    nav 
+      width: 80%
+      height: 80px
+      margin: 0 auto
   .categories 
     ul 
       li 

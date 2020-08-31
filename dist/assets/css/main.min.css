@@ -1,7 +1,5 @@
 /*! Fonts */
 
-@import url(https://allfont.ru/allfont.css?fonts=allegretto-script-one);
-
 @font-face {
   font-weight: font-weight;
   font-style: normal;
@@ -1510,12 +1508,12 @@ body {
 
 .slider-main {
   width: 100%;
-  min-height: 780px;
+  min-height: 700px !important;
   position: relative;
 }
 
 .slider-main-item {
-  height: 780px;
+  height: 700px !important;
   background-size: cover;
 }
 
@@ -5823,6 +5821,41 @@ body {
 }
 
 @media screen and (min-width: 1800px) {
+  .slider-main {
+    width: 100%;
+    min-height: 750px !important;
+    position: relative;
+  }
+
+  .slider-main-item {
+    height: 750px !important;
+    background-size: cover;
+  }
+
+  .slider-main-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: -43px;
+  }
+
+  .slider-main-item {
+    height: 780px !important;
+  }
+
+  .header__bottom ul {
+    margin: 0 auto;
+  }
+
+  .header__container nav {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+  }
+
   .categories ul li {
     padding: 19px 72px;
   }
